@@ -1,1 +1,0 @@
-../../../../.git/annex/objects/69/Z2/SHA256E-s601235--fa59be70d5692dc7a61abd2c0d9e5e9c0ee82c64d87cfeadaa01f404929dfb89.white.H/SHA256E-s601235--fa59be70d5692dc7a61abd2c0d9e5e9c0ee82c64d87cfeadaa01f404929dfb89.white.H
