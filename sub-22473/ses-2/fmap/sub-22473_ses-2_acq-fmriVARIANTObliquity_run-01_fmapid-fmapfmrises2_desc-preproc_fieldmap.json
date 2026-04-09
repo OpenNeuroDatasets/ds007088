@@ -1,0 +1,17 @@
+{
+  "AnatomicalReference": "sub-22473_ses-2_acq-fmriVARIANTObliquity_run-01_fmapid-fmapfmrises2_desc-epi_fieldmap.nii.gz",
+  "AssociatedCoefficients": [
+    "sub-22473_ses-2_acq-fmriVARIANTObliquity_run-01_fmapid-fmapfmrises2_desc-coeff_fieldmap.nii.gz"
+  ],
+  "B0FieldIdentifier": "fmap_fmri_ses_2",
+  "IntendedFor": [
+    "ses-2/func/sub-22473_ses-2_task-nback_acq-VARIANTObliquity_run-01_bold.nii.gz",
+    "ses-2/func/sub-22473_ses-2_task-rest_acq-VARIANTObliquity_run-01_bold.nii.gz",
+    "ses-2/func/sub-22473_ses-2_task-rest_acq-VARIANTObliquity_run-02_bold.nii.gz"
+  ],
+  "RawSources": [
+    "/cbica/comp_space/executive_function/fmriprep/job-14482156-93-sub-22473-ses-2/ds/inputs/data/BIDS/sub-22473/ses-2/fmap/sub-22473_ses-2_acq-fmriVARIANTObliquity_dir-AP_run-01_epi.nii.gz",
+    "/cbica/comp_space/executive_function/fmriprep/job-14482156-93-sub-22473-ses-2/ds/inputs/data/BIDS/sub-22473/ses-2/fmap/sub-22473_ses-2_acq-fmriVARIANTObliquity_dir-PA_run-01_epi.nii.gz"
+  ],
+  "Units": "Hz"
+}

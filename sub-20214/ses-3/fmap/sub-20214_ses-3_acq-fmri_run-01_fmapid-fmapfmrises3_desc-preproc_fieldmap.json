@@ -1,0 +1,17 @@
+{
+  "AnatomicalReference": "sub-20214_ses-3_acq-fmri_run-01_fmapid-fmapfmrises3_desc-epi_fieldmap.nii.gz",
+  "AssociatedCoefficients": [
+    "sub-20214_ses-3_acq-fmri_run-01_fmapid-fmapfmrises3_desc-coeff_fieldmap.nii.gz"
+  ],
+  "B0FieldIdentifier": "fmap_fmri_ses_3",
+  "IntendedFor": [
+    "ses-3/func/sub-20214_ses-3_task-nback_run-01_bold.nii.gz",
+    "ses-3/func/sub-20214_ses-3_task-rest_run-01_bold.nii.gz",
+    "ses-3/func/sub-20214_ses-3_task-rest_run-02_bold.nii.gz"
+  ],
+  "RawSources": [
+    "/cbica/comp_space/executive_function/fmriprep/job-14476844-18-sub-20214-ses-3/ds/inputs/data/BIDS/sub-20214/ses-3/fmap/sub-20214_ses-3_acq-fmri_dir-AP_run-01_epi.nii.gz",
+    "/cbica/comp_space/executive_function/fmriprep/job-14476844-18-sub-20214-ses-3/ds/inputs/data/BIDS/sub-20214/ses-3/fmap/sub-20214_ses-3_acq-fmri_dir-PA_run-01_epi.nii.gz"
+  ],
+  "Units": "Hz"
+}
