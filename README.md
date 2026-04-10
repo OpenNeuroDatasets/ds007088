@@ -11,20 +11,6 @@ The Docker Hub link for fMRIPrep is [here.](https://hub.docker.com/layers/niprep
 
 The quality control recommendations for fMRI can be found on [Github](https://github.com/PennLINC/transdiagnostic_executive_function/tree/main/QC/qc_csvs/final_QC_csvs). Both QC recommendations for fMRI and T1 structural data should be taken into account for fMRI data.
 
-*Note that we manually deleted extra n-back task runs from the data upon consulting the scanner notes after running XCP-D. Hence, the html files for the following subjects that originally had an extra n-back run will incorrectly specify that there were two runs:
-- sub-20149, ses-1
-- sub-20212, ses-1
-- sub-20238, ses-2
-- sub-20352, ses-2
-- sub-20934, ses-1
-- sub-20964, ses-1
-- sub-20968, ses-2
-- sub-21035, ses-1
-- sub-21197, ses-1
-- sub-21516, ses-2
-- sub-21553, ses-1
-- sub-21738, ses-1
-- sub-23676, ses-1
 
 ## Instructions to generate complete fMRIPrep derivatives
 In order to generate complete fMRIPrep derivatives for this dataset, you must clone the fMRIPrep (ds007088), fMRIPrep-anat (ds007089), and raw (ds007116) datasets.
