@@ -13,12 +13,12 @@ The quality control recommendations for fMRI can be found on [Github](https://gi
 
 
 ## Instructions to generate complete fMRIPrep derivatives
+
 In order to generate complete fMRIPrep derivatives for this dataset, you must clone the fMRIPrep (ds007088), fMRIPrep-anat (ds007089), and raw (ds007116) datasets.
 These fMRIPrep derivatives were produced with BABS, which processes each session independently. In order to reproduce that processing structure with vanilla fMRIPrep, you will need to use fMRIPrep version 25.2.0 or later.
 Here is an example fMRIPrep call to generate outputs for sub-138950 ses-1:
 
-
-` ` `
+```
 apptainer run \
     --cleanenv \
     -B /path/to/ds007116:/data \
@@ -43,4 +43,4 @@ apptainer run \
     --participant-label sub-138950 \
     --derivatives minimal=/fmriprep_minimal \
     --session-label 1
-` ` `
+```
